@@ -1,0 +1,7 @@
+1. Download iris dataset as csv from Kaggle (as zip file or use other options)
+FYI iris dataset column names:
+['Id', 'SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm','Species']
+
+---Docker commands---
+docker build -t iris-model .
+docker run iris-model
